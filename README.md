@@ -18,7 +18,8 @@
 <div>
 <h3>Difference from the original package:</h3>
 <ol>
-  <li>On the client side, you can specify an arbitrary protocol.</li>
+  <li>On the client side, you can specify an arbitrary protocol.
+  <a href="https://github.com/webpack/webpack-dev-server/issues/763">webpack-dev-server/issues/763</li>
 </ol>
 </div>
 
