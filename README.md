@@ -1,4 +1,4 @@
-# webpack-dev-server
+# webpack-dev-server-fork
 
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
@@ -22,7 +22,7 @@ It uses [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middlewa
 <h2 align="center">Install</h2>
 
 ```
-npm install webpack-dev-server --save-dev
+npm install webpack-dev-server-fork --save-dev
 ```
 
 <h2 align="center">Usage</h2>
@@ -30,7 +30,7 @@ npm install webpack-dev-server --save-dev
 The easiest way to use it is with the CLI. In the directory where your `webpack.config.js` is, run:
 
 ```
-node_modules/.bin/webpack-dev-server
+node_modules/.bin/webpack-dev-server-fork
 ```
 
 This will start a server, listening on connections from `localhost` on port `8080`.
@@ -67,20 +67,20 @@ This project is heavily inspired by [peerigon/nof5](https://github.com/peerigon/
 #### [MIT](./LICENSE)
 
 
-[npm]: https://img.shields.io/npm/v/webpack-dev-server.svg
-[npm-url]: https://npmjs.com/package/webpack-dev-server
+[npm]: https://img.shields.io/npm/v/webpack-dev-server-fork.svg
+[npm-url]: https://npmjs.com/package/webpack-dev-server-fork
 
-[node]: https://img.shields.io/node/v/webpack-dev-server.svg
+[node]: https://img.shields.io/node/v/webpack-dev-server-fork.svg
 [node-url]: https://nodejs.org
 
-[deps]: https://david-dm.org/webpack/webpack-dev-server.svg
-[deps-url]: https://david-dm.org/webpack/webpack-dev-server
+[deps]: https://david-dm.org/webpack/webpack-dev-server-fork.svg
+[deps-url]: https://david-dm.org/webpack/webpack-dev-server-fork
 
-[tests]: http://img.shields.io/travis/webpack/webpack-dev-server.svg
-[tests-url]: https://travis-ci.org/webpack/webpack-dev-server
+[tests]: http://img.shields.io/travis/webpack/webpack-dev-server-fork.svg
+[tests-url]: https://travis-ci.org/webpack/webpack-dev-server-fork
 
-[cover]: https://codecov.io/gh/webpack/webpack-dev-server/branch/master/graph/badge.svg
-[cover-url]: https://codecov.io/gh/webpack/webpack-dev-server
+[cover]: https://codecov.io/gh/webpack/webpack-dev-server-fork/branch/master/graph/badge.svg
+[cover-url]: https://codecov.io/gh/webpack/webpack-dev-server-fork
 
 [chat]: https://badges.gitter.im/webpack/webpack.svg
 [chat-url]: https://gitter.im/webpack/webpack
