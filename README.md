@@ -15,6 +15,15 @@
   <h1>webpack Dev Server</h1>
 </div>
 
+<div>
+<h3>Difference from the original package:</h3>
+<ol>
+  <li>On the client side, you can specify an arbitrary protocol.</li>
+</ol>
+</div>
+
+<hr>
+
 Use [webpack](https://webpack.js.org) with a development server that provides live reloading. This should be used for **development only**.
 
 It uses [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) under the hood, which provides fast in-memory access to the webpack assets.

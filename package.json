@@ -1,6 +1,6 @@
 {
   "name": "webpack-dev-server-fork",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "author": "Tobias Koppers @sokra",
   "description": "Serves a webpack app. Updates the browser on changes.",
   "peerDependencies": {
@@ -49,9 +49,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/webpack/webpack-dev-server.git"
+    "url": "git+https://github.com/shadowwzw/webpack-dev-server.git"
   },
-  "homepage": "http://github.com/webpack/webpack-dev-server",
+  "homepage": "https://github.com/shadowwzw/webpack-dev-server",
   "main": "lib/Server.js",
   "bin": "bin/webpack-dev-server.js",
   "engines": {
