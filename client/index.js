@@ -128,6 +128,8 @@ var onSocketMsg = {
 var hostname = urlParts.hostname;
 var protocol = urlParts.protocol;
 
+hostname = (hostname === "0.0.0.0" || hostname === "::") ? "localhost" : hostname;
+
 var socketUrl = url.format({
 	protocol: protocol,
 	auth: urlParts.auth,
